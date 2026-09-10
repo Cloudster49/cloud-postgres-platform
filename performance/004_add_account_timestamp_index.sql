@@ -1,0 +1,2 @@
+CREATE INDEX idx_transactions_account_timestamp
+ON transactions(account_id, transaction_timestamp);
