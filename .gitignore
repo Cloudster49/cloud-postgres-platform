@@ -5,3 +5,9 @@ __pycache__/
 venv/
 *.log
 backups/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
