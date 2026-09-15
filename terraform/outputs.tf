@@ -1,10 +1,10 @@
 output "resource_group_name" {
-  description = "Nmae of the project resource group"
+  description = "Name of the project resource group"
   value       = azurerm_resource_group.project.name
 }
 
 output "vnet_name" {
-  description = "Nmae of the project virtual network"
+  description = "Name of the project virtual network"
   value       = azurerm_virtual_network.project.name
 }
 

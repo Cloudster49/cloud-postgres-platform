@@ -1,0 +1,4 @@
+variable "vm_public_key" {
+  description = "Existing SSH public key for the Azure Linux VM"
+  type        = string
+}
